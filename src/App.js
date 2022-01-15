@@ -1,5 +1,3 @@
-
-import './App.css';
 import { Search } from './Component/Search';
 function App() {
   return (
@@ -8,5 +6,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
