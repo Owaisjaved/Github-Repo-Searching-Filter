@@ -24,10 +24,10 @@ Your app is ready to be deployed!
 
 ## Future Improvement
 [1]--Search Option For User Profile.\
-[2]--More Searching Filter like,
+[2]--More Searching Filter like,.\
 $ Repo Type (Public & Private).\
 $ Order By Date (Accending & Decending).\
 $ Order By Date (Accending & Decending).\
 $ Filter by Language.\
-$ View Repositories (Redirect to Repo URL)
+[3] View Repositories (Redirect to Repo URL)
 
