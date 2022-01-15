@@ -50,7 +50,7 @@ export const Search = () => {
         setFilterData(filterData)
     }
 
-    // React UseEffect 
+    // React UseEffect hook for Mounting Functions
     useEffect(() => {
         getUser()
         getUserRepo()
