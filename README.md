@@ -32,10 +32,10 @@ $ Filter by Language.\
 [3] View Repositories (Redirect to Repo URL)
 
 ## Feedback
-This Was a fun task and I learn some new Things While Doing,.\
-I Only Knew About Graphql but never implemented/Used this query Language but Know .\
-I knew how useful it is..\
-Thank You for giving me this opportunity.\
+This Was a fun task and I learn some new Things While Doing it\
+I Only Knew About GraphQl but never implemented/Used this query Language but Know \
+I knew how useful it is.\
+Thank You for giving me this opportunity
 
 
 
