@@ -23,12 +23,12 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ## Future Improvement
-[1]--Search Option For User Profile.\
-[2]--More Searching Filter like,.\
-$ Repo Type (Public & Private).\
-$ Order By Date (Accending & Decending).\
-$ Filter by Language.\
-[3] View Repositories (Redirect to Repo URL)
+[🤚]--Search Option For User Profile.\
+[🤚]--More Searching Filter like,.\
+👉 Repo Type (Public & Private).\
+👉 Order By Date (Accending & Decending).\
+👉 Filter by Language.\
+[🤚] View Repositories (Redirect to Repo URL)
 
 ## Feedback
 This Was a fun task and I learn some new Things While Doing it\
