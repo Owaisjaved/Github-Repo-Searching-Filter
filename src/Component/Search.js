@@ -20,10 +20,9 @@ export const Search = () => {
    * Destructuring Values from .env files
    * Changing values in .env files will give data according to credentials
    * Note : gitignore will probably ignore .env files,
-   * So for testing purpose Give user name and github access token in substitute of REACT_APP_GITHUB_USERNAME & REACT_APP_GITHUB_ACCESS_TOKEN
-   * Environment Variables:
-     *REACT_APP_GITHUB_USERNAME = OwaisJaved
-     *REACT_APP_GITHUB_ACCESS_TOKEN = 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
+   * So for testing purpose Give user name and github access token in substitute of 
+   * REACT_APP_GITHUB_USERNAME & REACT_APP_GITHUB_ACCESS_TOKEN 
+   * down below and comment destructing line
    */
   const {REACT_APP_GITHUB_USERNAME,REACT_APP_GITHUB_ACCESS_TOKEN} = process.env
 
