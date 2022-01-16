@@ -27,7 +27,6 @@ Your app is ready to be deployed!
 [2]--More Searching Filter like,.\
 $ Repo Type (Public & Private).\
 $ Order By Date (Accending & Decending).\
-$ Order By Date (Accending & Decending).\
 $ Filter by Language.\
 [3] View Repositories (Redirect to Repo URL)
 
