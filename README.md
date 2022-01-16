@@ -28,7 +28,7 @@ Your app is ready to be deployed!
 👉 Repo Type (Public & Private).\
 👉 Order By Date (Accending & Decending).\
 👉 Filter by Language.\
-[🤚] View Repositories (Redirect to Repo URL)
+[🤚]--View Repositories (Redirect to Repo URL)
 
 ## Feedback ✨
 This Was a fun task and I learn some new Things While Doing it\
