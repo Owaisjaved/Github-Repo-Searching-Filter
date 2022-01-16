@@ -22,7 +22,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-## Future Improvement
+## Future Improvement ✨
 [🤚]--Search Option For User Profile.\
 [🤚]--More Searching Filter like,.\
 👉 Repo Type (Public & Private).\
@@ -30,7 +30,7 @@ Your app is ready to be deployed!
 👉 Filter by Language.\
 [🤚] View Repositories (Redirect to Repo URL)
 
-## Feedback
+## Feedback ✨
 This Was a fun task and I learn some new Things While Doing it\
 I Only Knew About GraphQl but never implemented/Used this query Language but Know \
 I knew how useful it is.\
