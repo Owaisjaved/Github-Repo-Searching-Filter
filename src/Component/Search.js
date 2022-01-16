@@ -16,13 +16,12 @@ export const Search = () => {
   const [loading, setLoading] = useState(true);
 
   /**
-   * Changing Object Values will Populate Data Respectively
-   * @public
+   * Destructuring Values from .env files
+   * Changing values in .env files will give data according to credentials
+   * Note : gitignore will probably ignore .env files,
+   * So for testing purpose Give user name and github access token in substitute of REACT_APP_GITHUB_USERNAME & REACT_APP_GITHUB_ACCESS_TOKEN
    */
-  let userInfo = {
-    name: "OwaisJaved",
-    token: "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",
-  };
+  const {REACT_APP_GITHUB_USERNAME,REACT_APP_GITHUB_ACCESS_TOKEN} = process.env
 
   /** @function
    * A Function that Fetches User Github Data using GraphQl
@@ -33,7 +32,7 @@ export const Search = () => {
       {
         // Query to Get Required Values
         query: `{
-                 user(login: "${userInfo.name}") {
+                 user(login: "${REACT_APP_GITHUB_USERNAME}") {
                    id  
                    name
                    login
@@ -67,7 +66,7 @@ export const Search = () => {
                }`,
       },
       {
-        headers: { Authorization: `Bearer ${userInfo.token}` },
+        headers: { Authorization: `Bearer ${REACT_APP_GITHUB_ACCESS_TOKEN}` },
       }
     );
 
@@ -100,7 +99,7 @@ export const Search = () => {
      * @returns {array}
      */
     let filterData = repoData.filter((item) =>
-      item.name.toLowerCase().includes(search.toLowerCase())
+      item.name.toLowerCase().includes(e.target.value.toLowerCase())
     );
     setFilterData(filterData);
   };
@@ -109,7 +108,6 @@ export const Search = () => {
   useEffect(() => {
     getUserGithub();
   }, []);
-
   return (
     <div className="Main">
       <div className="Container">
@@ -152,7 +150,7 @@ export const Search = () => {
           search.length > 1 ? (
             filterData.map((item) => (
               <div className="Repo-Cards" key={item.id}>
-                <div className="bigText" style={{ color: "#47A6FF" }}>
+                <div className="bigText" style={{ color: "#47A6FF" }}>  
                   {item.name}
                 </div>
                 <div className="normalText">{item.description}</div>
